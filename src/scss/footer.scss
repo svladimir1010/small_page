@@ -1,0 +1,23 @@
+.footer {
+	height: 100px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: black;
+	color: white;
+	text-align: center;
+
+	& h5 {
+		font-family: "ProximaNovaSemiBold";
+		font-size: 14px;
+
+		& a {
+			text-decoration: none;
+		}
+
+		& b {
+			font-family: "ProximaNovaExtraBold";
+			color: #20aa97;
+		}
+	}
+}

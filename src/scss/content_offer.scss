@@ -1,0 +1,153 @@
+@media screen and (min-width: 320px) and (max-width: 768px) {
+    .content__our-offer h1 {
+        font-size: 60px;
+        font-family: "ProximaNovaExtraBold";
+        margin-top: 35px;
+        margin-left: 15px;
+        margin-bottom: 80px;
+        color: black;
+
+        & font {
+            color: #20aa97;
+        }
+    }
+    .box__our-offer {
+        box-sizing: border-box;
+        margin: 0;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+
+        &__item {
+            width: 100%;
+            margin-bottom: 90px;
+
+            &__img {
+                margin-left: 70px;
+								margin-bottom: 65px;
+
+								& img {
+									width: 185px;
+								}
+
+                & img:hover {
+                    -webkit-animation: rubberBand 1s;
+                    animation: rubberBand 1s;
+
+                    &:active {
+                        -webkit-animation: bounce 1s;
+                        animation: bounce 1s;
+                    }
+                }
+            }
+
+            &__text {
+                line-height: 160%;
+                margin-left: 10px;
+            }
+
+            &__text b {
+                font-family: "ProximaNovaExtraBold";
+                color: black;
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .content__our-offer h1 {
+        font-size: 60px;
+        font-family: "ProximaNovaExtraBold";
+        text-align: center;
+        margin-top: 35px;
+        margin-bottom: 80px;
+        color: black;
+
+        & font {
+            color: #20aa97;
+        }
+    }
+    .box__our-offer {
+        box-sizing: border-box;
+        margin: 0 150px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+
+        &__item {
+            width: 100%;
+						margin-bottom: 90px;
+						
+						& img {
+							width: 140px;
+						}
+
+            &__img {
+                margin-left: 25px;
+                margin-bottom: 65px;
+
+                & img:hover {
+                    -webkit-animation: rubberBand 1s;
+                    animation: rubberBand 1s;
+
+                    &:active {
+                        -webkit-animation: bounce 1s;
+                        animation: bounce 1s;
+                    }
+                }
+            }
+
+            &__text b {
+                font-family: "ProximaNovaExtraBold";
+                color: black;
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .content__our-offer h1 {
+        font-size: 60px;
+        font-family: "ProximaNovaExtraBold";
+        text-align: center;
+        margin-top: 35px;
+        margin-bottom: 80px;
+        color: black;
+
+        & font {
+            color: #20aa97;
+        }
+    }
+    .box__our-offer {
+        box-sizing: border-box;
+        margin: 0 150px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+
+        &__item {
+            width: 45%;
+            margin-bottom: 90px;
+
+            &__img {
+                margin-left: 25px;
+                margin-bottom: 65px;
+
+                & img:hover {
+                    -webkit-animation: rubberBand 1s;
+                    animation: rubberBand 1s;
+
+                    &:active {
+                        -webkit-animation: bounce 1s;
+                        animation: bounce 1s;
+                    }
+                }
+            }
+
+            &__text b {
+                font-family: "ProximaNovaExtraBold";
+                color: black;
+            }
+        }
+    }
+}

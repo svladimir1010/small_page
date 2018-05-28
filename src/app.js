@@ -1,0 +1,11 @@
+import './js/loader.js';
+import './scss/base.scss';
+import './scss/typography.scss';
+import './scss/header.scss';
+import './scss/normalize.scss';
+import './scss/content_cervise.scss';
+import './scss/content_offer.scss';
+import './scss/animate.scss';
+import './scss/loader.scss';
+import './scss/footer.scss';
+import './scss/our_service_fee.scss';

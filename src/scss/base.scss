@@ -1,0 +1,65 @@
+@media screen and (min-width: 320px) and (max-width: 768px) {
+	body {
+		margin: 0;
+		font-family: "ProximaNova-Bold";
+		color: #585858;
+		position: relative;
+
+		& .wrap {
+			width: 95%;
+			margin: 0 auto;
+			font-size: 22px;
+			overflow-x: hidden;
+		}
+		
+		& .ellipse {
+			position: absolute;
+			right: -25vw;
+			top: -200px;
+			//z-index: 0.1;
+		}
+	}
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+	body {
+		margin: 0;
+		font-family: "ProximaNova-Bold";
+		color: #585858;
+		position: relative;
+
+		& .wrap {
+			width: 90%;
+			margin: 0 auto;
+			font-size: 22px;
+			overflow-x: hidden;
+		}
+
+		& .ellipse {
+			position: absolute;
+			right: 0;
+			top: -140px;
+		}
+	}
+}
+
+@media screen and (min-width: 1024px) {
+	body {
+		margin: 0;
+		font-family: "ProximaNova-Bold";
+		color: #585858;
+		position: relative;
+
+		& .wrap {
+			width: 81%;
+			margin: 0 auto;
+			font-size: 16px;
+			overflow-x: hidden;
+		}
+
+		& .ellipse {
+			position: absolute;
+			right: 0;
+		}
+	}
+}
